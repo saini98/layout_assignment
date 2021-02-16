@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0px;
     padding: 0px;
 }
@@ -15,9 +15,9 @@
 }
 #logo
 {
-    height: 100px;
+    height: 50px;
     background-color: coral;
-    width: 100px;  
+    width: 150px;  
     text-align: center;
     
 }
@@ -25,7 +25,7 @@
 {
     text-align: center;
     position: relative;
-    top: 30px;
+    top: 10px;
 }
 #login
 {
@@ -34,12 +34,12 @@
     background-color: darkgreen;
     float: right;
     position: relative;
-    top: -70px;
+    top: -50px;
 }
 #login h2{
     text-align: center;
     position: relative;
-    top: 10px;
+    bottom:10px;
 }
 #container
 {
@@ -50,14 +50,19 @@
     height: 1000px;
     width: 20%;
     background-color: darkred;
+    display: inline-block;
 
 }
 #nav
 {
+    display: inline-block;
     color:lightgrey;
     text-align: center;
     position: relative;
     top: 20px;
+}
+#nav ul{
+    list-style-type: none;
 }
 #nav ul li a{
     color: lightgrey;
@@ -77,7 +82,7 @@
     width: 150px;
     background-color: darkturquoise;
     position: relative;
-    top: 20px;
+    bottom: 10px;
     left: 50px;
 }
 #box1 h2{
@@ -91,8 +96,13 @@
     width: 150px;
     background-color: rgb(0, 125, 209);
     position: relative;
-    left: 200px; 
-    bottom: 25px;
+    left: 250px; 
+    bottom: 180px;
+}
+#box2 h2{
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 #box3
 {
@@ -100,8 +110,13 @@
     width: 150px;
     background-color: rgb(108, 0, 209);
     position: relative;
-    left: 200px;
-    bottom: 25px; 
+    left: 460px;
+    bottom: 350px; 
+}
+#box3 h2{
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 #box4
 {
@@ -109,8 +124,13 @@
     width: 150px;
     background-color: rgb(209, 0, 209);
     position: relative;
-    left: 200px; 
-    bottom: 25px;
+    left: 675px; 
+    bottom: 520px;
+}
+#box4 h2{
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
 #content
 {
@@ -118,7 +138,7 @@
     width: 300px;
     background-color: lawngreen;
     position: relative;
-    top: 60px;
+    bottom: 500px;
     left: 50px;
 }
 #content h2{
@@ -129,8 +149,7 @@
 #words
 {
     position: relative;
-    float: right;
-    bottom: 20px;
+    bottom: 50px;
     left: 450px;
     color: white;
 }
@@ -138,7 +157,7 @@
 {
     position: relative;
     left: 50px;
-    top: 100px;
+    bottom: 450px;
 }
 #email
 {
@@ -150,19 +169,38 @@
 {
     position: relative;
     left: 650px;
-    bottom: 60px;
+    bottom: 65px;
+    
 }
 .table
 {
     position: relative;
     left: 50px;
-    top: 100px;
+    bottom: 470px;
    
     
 }
 .tble
 {
     border-color: white;
-    width: 400px;
+    width:90%;
     height: 100px;
+    text-align: center;
+}
+#btn button{
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+}
+#Name
+{
+    background-color: transparent;
+    width: 200px;
+    height: 20px;
+}
+#Email
+{
+    background-color: transparent;
+    width: 200px;
+    height: 20px;
 }
